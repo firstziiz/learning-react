@@ -1,4 +1,9 @@
 # LEARNING REACT By KS!
+> I create a todo-list of react for becomimg a react developer :) I think >that it so good for newbie developer for start to learn react.
+> 
+> have funn !
+
+---
 
 ## Todolist
   * [X] ~~*Start Using React to Build Web Applications*~~
@@ -11,13 +16,9 @@
   * [ ] How to Use npm Scripts as Your Build Tool
   * [ ] Record Badass Screencasts for egghead.io
   
+---
 
-## Material & Blog
-  * 
-
-## Egghead.io
-> Start Using React to Build Web Applications
-
+### [1] Start Using React to Build Web Applications
 - Introduction
   * npm i create-react-app -g
   * create-react-app [name] -> for a create react starter app
