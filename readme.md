@@ -15,6 +15,8 @@
   * [ ] Understand the Basics of HTTP
   * [ ] How to Use npm Scripts as Your Build Tool
   * [ ] Record Badass Screencasts for egghead.io
+  * [ ] Learn Redux Course (RDX1)
+  * [ ] JavaScript Stack from Scratch
   
 ---
 
@@ -28,7 +30,7 @@
   * `import React from 'react'` for use react in your app.
   * `class App extends React.Component {...}` create React Component
   * warpping jsx !
-    ```
+    ```jsx
     render(){
       return (_jsx_);
     }
@@ -39,7 +41,7 @@
 **Props** ! Same a attribute.
   - `{this.props._prop_name_}` for access a props;
   - use Prop Types
-  ```
+  ```jsx
   App.propTypes = {
     txt: React.PropTypes.string,
     cat: React.PropTypes.number.isRequired,
@@ -47,7 +49,7 @@
   }
   ```
   - use defaultProps
-  ```
+  ```jsx
   App.defaultProps = {
     txt : "this is the default txt",
     whatever: _somethings_,
@@ -56,7 +58,7 @@
 
 **State** ! Collection of value statement .
   - how set state !
-    ```
+    ```jsx
     constructor(){
       super();
       this.state = {
@@ -114,13 +116,13 @@
   - create increasing state.
   - use update()
   - componentWillReceiveProps
-    ```
+    ```jsx
     componentWillReceiveProps(nextProps){
       ...
     }
     ```
   - shouldComponentUpdate 
-    ```
+    ```jsx
     shouldComponentUpdate(nextProps, nextState){
       return ...
     }
@@ -129,7 +131,7 @@
 **Create React Component from Arras of Data**
   - `this.state = { items: [] }`
   - 
-  ```
+  ```jsx
   fetch('_url_')
     .then( response => response.json())
     .then(({result: items}) => this.setState({items}))
@@ -139,7 +141,7 @@
 
 Compose React Component **Higher Order Component**
   - **HOC** is ..
-    ```
+    ```jsx
     const HOC = (InnerComponent) => class extends React.Component {
       return(){
         return (
@@ -153,7 +155,7 @@ Compose React Component **Higher Order Component**
 
 **JSX live Compiler**
   - defaultValue for textarea
-  ```
+  ```jsx
   this.setState({
     window.Babel.transform(_code_, { presets: ['es2015', 'react']}).code;
   })
