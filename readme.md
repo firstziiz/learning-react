@@ -19,7 +19,7 @@
 ---
 
 ### [1] Start Using React to Build Web Applications
-**Introduction* of React
+**Introduction** of React
   * npm i create-react-app -g
   * create-react-app [name] -> for a create react starter app
   * file structure
@@ -36,7 +36,7 @@
   - `export default App` for make mudule file
   - `const App = () => ...jsx...` for make Stateless Components
 
-**Props* ! Same a attribute.
+**Props** ! Same a attribute.
   - `{this.props._prop_name_}` for access a props;
   - use Prop Types
   ```
@@ -54,7 +54,7 @@
   }
   ```
 
-**State* ! Collection of value statement .
+**State** ! Collection of value statement .
   - how set state !
     ```
     constructor(){
@@ -72,7 +72,7 @@
      and 
     `onChange={this.update.bind(this)} for bind that element!`
 
-**Use Another Component* !
+**Use Another Component !**
   - if use create new Component
     `const Widget = (props) => <input type="text" onChange={props.update} />`
   - and use new Component
@@ -93,7 +93,7 @@
   * onTouchMove
   * onTouchEnd
 
-**React* Refs
+**React** Refs
   - In normally. this is how to use refs.
     `ref="_somthings_"`
     `this.refs._somthings_.value` 
@@ -164,7 +164,7 @@ Compose React Component **Higher Order Component**
   - Children can use `React.Children.map(this.props.children, child => child)`
   - and can use `React.Children.toArray(this.props.children)`
 
-**Use* `react-create-app` for kickstart your project.
+**Use** `react-create-app` for kickstart your project.
   - it make you easy create & test a simple app
 
   
